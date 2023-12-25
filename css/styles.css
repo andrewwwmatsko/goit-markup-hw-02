@@ -32,8 +32,27 @@ ul {
 .contacts .contacts-phone-number:hover, .contacts .contacts-phone-number:focus {
     color: #404BBF;
 }
+.logo-web {
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.logo-studio {
+    color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
 
 /* Main content */
+
 /* Order service section */
 .order-service-section {
     background-color: #2E2F42;
@@ -48,9 +67,17 @@ ul {
 }
 .order-service-button {
     background-color: #4D5AE5;
+    font-weight: 500;
     color: #FFFFFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    line-height: 1.5;
+    letter-spacing: 0.64px;
     cursor: pointer;
+    border-radius: 4px;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
 }
 .order-service-button:hover, .order-service-button:focus {
     background-color: #404BBF;
@@ -67,6 +94,13 @@ ul {
 .features-description {
         line-height: 1.5;
         letter-spacing: 0.32px;
+}
+.features-list-item {
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
 }
 
 /* Our Team-section */
@@ -97,6 +131,12 @@ ul {
 }
 .our-team-list-person{
     background-color: #FFFFFF;
+    display: inline-flex;
+    padding-bottom: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
 }
 
 /* Our Portfolio section */
@@ -129,4 +169,13 @@ ul {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.32px;
+}
+.footer-logo-studio {
+    color: #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
