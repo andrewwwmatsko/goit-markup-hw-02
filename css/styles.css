@@ -87,11 +87,10 @@ ul {
     color: #2E2F42;
 }
 .features-description {
-        line-height: 1.5;
-        letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
-.features-list-item {
-}
+
 
 /* Our Team-section */
 .our-team-section {
@@ -115,9 +114,9 @@ ul {
     letter-spacing: 0.4px;
 }
 .our-team-job {
-        text-align: center;;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
+    text-align: center;;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 .our-team-list-person{
     background-color: #FFFFFF;
