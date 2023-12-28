@@ -2,9 +2,7 @@
 body {
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    font-weight: 400;
     color: #434455;
-    line-height: 1.5;
     background-color: #FFF;
 }
 a {
@@ -42,6 +40,7 @@ ul {
 .contacts-item, .contacts-item {
     color: #434455;
     letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 /* Header > address items on action */
 .contacts-item:hover,.contacts-item:focus{
